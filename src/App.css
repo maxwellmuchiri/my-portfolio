@@ -1,0 +1,100 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-content {
+  padding: 20px;
+}
+
+.App-footer {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+}
+
+/* Add styles for the Skills component */
+.Skills {
+  margin-bottom: 30px;
+}
+
+.Skills h2 {
+  color: #61dafb;
+}
+
+.Skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Skills li {
+  background-color: #61dafb;
+  color: white;
+  padding: 8px;
+  margin: 4px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* Add styles for the Projects component */
+.Projects {
+  margin-bottom: 30px;
+}
+
+.Projects h2 {
+  color: #61dafb;
+}
+
+.Projects div {
+  background-color: #f0f0f0;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+/* Add styles for the ContactForm component */
+.ContactForm {
+  margin-bottom: 30px;
+}
+
+.ContactForm h2 {
+  color: #61dafb;
+}
+
+.ContactForm form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.ContactForm label {
+  font-weight: bold;
+}
+
+.ContactForm input,
+.ContactForm textarea,
+.ContactForm button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.ContactForm button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ContactForm button:hover {
+  background-color: #2188ff;
+}
